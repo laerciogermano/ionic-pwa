@@ -1,0 +1,7 @@
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <input type="text" name="email" placeholder="Email" ngModel>
+  <input type="password" name="password" placeholder="Password" ngModel>
+  <input type="submit" value="submit">
+</form>
+
+<a routerLink="/auth/signup">Cadastrar</a>
